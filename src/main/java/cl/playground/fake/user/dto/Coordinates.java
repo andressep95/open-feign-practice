@@ -22,4 +22,12 @@ public class Coordinates {
     public void setLongitude(String longitude) {
         this.longitude = longitude;
     }
+
+    @Override
+    public String toString() {
+        return "Coordinates{" +
+            "latitude='" + latitude + '\'' +
+            ", longitude='" + longitude + '\'' +
+            '}';
+    }
 }

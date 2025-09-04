@@ -22,4 +22,12 @@ public class TimeZone {
     public void setDescription(String description) {
         this.description = description;
     }
+
+    @Override
+    public String toString() {
+        return "TimeZone{" +
+            "offset='" + offset + '\'' +
+            ", description='" + description + '\'' +
+            '}';
+    }
 }
